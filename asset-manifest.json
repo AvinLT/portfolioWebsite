@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.063fe200.css",
+    "main.js": "/static/js/main.e365e372.js",
+    "static/media/avin.jpg": "/static/media/avin.72008c830f0ef6f8289f.jpg",
+    "static/media/avin2.jpg": "/static/media/avin2.2710720d927de1aa7624.jpg",
+    "static/media/Resume.pdf": "/static/media/Resume.f2f492a21bf4d33685ae.pdf",
+    "index.html": "/index.html",
+    "main.063fe200.css.map": "/static/css/main.063fe200.css.map",
+    "main.e365e372.js.map": "/static/js/main.e365e372.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.063fe200.css",
+    "static/js/main.e365e372.js"
+  ]
+}
