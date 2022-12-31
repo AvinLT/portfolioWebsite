@@ -18,25 +18,23 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <h5>McMaster University</h5>
             </article>
             <article className="about__card">
               <FaUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h3>3rd Year</h3>
             </article>
             <article className="about__card">
               <FaFolderOpen className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h3>3.7 GPA</h3>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
-            deserunt explicabo rem temporibus dolorum aperiam, exercitationem
-            expedita. Similique laborum deleniti tempora fuga quibusdam
-            nesciunt, non amet soluta consequatur expedita alias.
+            Welcome to my portfolio website! Being able to make a big impact in
+            everything that I do has always been a core motivator and as an
+            aspiring software developer I love diving deep into new technologies
+            and experiences! So, no matter how hard the challenge, I’ll give it
+            a crack!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

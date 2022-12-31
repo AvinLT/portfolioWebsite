@@ -1,6 +1,6 @@
 import React from "react";
 import HeadBtn from "./headBtn";
-import ME from "../../assets/avin.jpg";
+import ME from "../../assets/avin2.jpg";
 import Socials from "./socials.jsx";
 import "./header.css";
 
@@ -8,17 +8,19 @@ const header = () => {
   return (
     <header id="home">
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Avin Lanson</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
-        <HeadBtn />
-        <Socials></Socials>
-        <div className="me">
-          <img src={ME} alt="me" />
+        <div className="intro_content">
+          <h5>Hey there! I'm</h5>
+          <h1>Avin Lanson Tharakan</h1>
+          <h5 className="text-light">
+            3rd Year CS Student @ McMaster University
+          </h5>
+          <HeadBtn />
         </div>
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
+        <div className="intro_me">
+          <div className="intro_me-image">
+            <img src={ME} alt="me" />
+          </div>
+        </div>
       </div>
     </header>
   );
