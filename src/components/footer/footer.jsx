@@ -1,13 +1,10 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#home" className="footer__logo">
-        DUMMY
-      </a>
       <ul className="permalinks">
         <li>
           <a href="#home">Home</a>
@@ -19,27 +16,24 @@ const Footer = () => {
           <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#services">Services</a>
-        </li>
-        <li>
           <a href="#portfolio">Portfolio</a>
-        </li>
-        <li>
-          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com" target="blank">
-          <FaFacebook />
+        <a
+          href="https://www.linkedin.com/in/avin-lanson-tharakan-5324511b4/"
+          target="blank"
+        >
+          <FaLinkedin />
         </a>
-        <a href="https://instagram.com" target="blank">
-          <FaInstagram />
-        </a>
-        <a href="https://twitter.com" target="blank">
-          <FaTwitter />
+        <a
+          href="https://github.com/AvinLT?tab=overview&from=2021-01-01&to=2021-01-09"
+          target="blank"
+        >
+          <FaGithub />
         </a>
       </div>
     </footer>

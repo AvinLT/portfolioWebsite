@@ -40,25 +40,14 @@ const Contact = () => {
           <article className="contact__option">
             <BsEnvelope className="contact__option-icon" />
             <h4>E-mail</h4>
-            <h5>test@gmail.com</h5>
-            <a href="mailto:atavares@seoxperts.com.br">Mensagem</a>
+            <h5>tharakaa@mcmaster.ca</h5>
+            <a href="mailto:tharakaa@mcmaster.ca">Email me</a>
           </article>
-          <article className="contact__option">
-            <FaHatWizard className="contact__option-icon" />
-            <h4>Site</h4>
-            <h5>website.com</h5>
-            <a
-              href="https://seoxperts.com.br"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              seoxperts.com.br
-            </a>
-          </article>
+
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
-            <h4>WhatsApp</h4>
-            <h5>+911</h5>
+            <h4>Phone Number</h4>
+            <h5>9059211361</h5>
             <a
               href="https://wa.me/message/HHVKC53QFOWZI1"
               target="_blank"

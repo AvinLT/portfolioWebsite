@@ -1,54 +1,42 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/avin.jpg";
-import IMG2 from "../../assets/avin.jpg";
-import IMG3 from "../../assets/avin.jpg";
-import IMG4 from "../../assets/avin.jpg";
-import IMG5 from "../../assets/avin.jpg";
-import IMG6 from "../../assets/avin.jpg";
+import IMG1 from "../../assets/amima.PNG";
+import IMG2 from "../../assets/chess.PNG";
+import IMG3 from "../../assets/crud.png";
+import IMG4 from "../../assets/mario.PNG";
+import IMG5 from "../../assets/portfolio.PNG";
+import IMG6 from "../../assets/conway.PNG";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
+    title: "Full Stack Dev at University Start-Up AMIMA",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    title: "Chess",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Figma dashboard UI kit for data design web apps",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
+    title: "Employee Management Application",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Maintaining tasks and tracking progress",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/1695582-Maintaining-tasks-and-tracking-progress",
+    title: "Super Mario Snippet Game",
   },
   {
     id: 5,
     image: IMG5,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    title: "This Website",
   },
   {
     id: 6,
     image: IMG6,
-    title: "Charts templates & infographics in Figma",
-    github: "https://github.com",
-    demo: "https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    title: "Conway's Game of Life",
   },
 ];
 
