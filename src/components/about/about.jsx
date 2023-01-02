@@ -30,11 +30,11 @@ const About = () => {
             </article>
           </div>
           <p>
-            Welcome to my portfolio website! Being able to make a big impact in
-            everything that I do has always been a core motivator and as an
-            aspiring software developer I love diving deep into new technologies
-            and experiences! So, no matter how hard the challenge, I’ll give it
-            a crack!
+            Welcome to my portfolio website! As an aspiring software developer,
+            I love experimenting with new technologies and experiences. By
+            approaching projects with enthusiasm, determination, and ingenuity,
+            I contribute significantly to everything I am a part of. No matter
+            how hard the challenge, I’ll give it a crack!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
