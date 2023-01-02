@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/portfolioWebsite/static/css/main.5279a77b.css",
-    "main.js": "/portfolioWebsite/static/js/main.b3c398c3.js",
+    "main.js": "/portfolioWebsite/static/js/main.49e9c852.js",
     "static/media/amima.PNG": "/portfolioWebsite/static/media/amima.e5328499886bb2845b4f.PNG",
     "static/media/avin.jpg": "/portfolioWebsite/static/media/avin.72008c830f0ef6f8289f.jpg",
     "static/media/avin2.jpg": "/portfolioWebsite/static/media/avin2.2710720d927de1aa7624.jpg",
     "static/media/portfolio.PNG": "/portfolioWebsite/static/media/portfolio.40c2e71c7a9495faa737.PNG",
     "static/media/conway.PNG": "/portfolioWebsite/static/media/conway.e5a6db5654fe7001dff4.PNG",
     "static/media/chess.PNG": "/portfolioWebsite/static/media/chess.4ef069476292144ada9e.PNG",
+    "static/media/Resume.pdf": "/portfolioWebsite/static/media/Resume.bb15913fa7131025ff7b.pdf",
     "static/media/mario.PNG": "/portfolioWebsite/static/media/mario.1a78bdfa31239e297873.PNG",
-    "static/media/Resume.pdf": "/portfolioWebsite/static/media/Resume.f2f492a21bf4d33685ae.pdf",
     "static/media/crud.png": "/portfolioWebsite/static/media/crud.e508157bb83d17f779d4.png",
     "index.html": "/portfolioWebsite/index.html",
     "main.5279a77b.css.map": "/portfolioWebsite/static/css/main.5279a77b.css.map",
-    "main.b3c398c3.js.map": "/portfolioWebsite/static/js/main.b3c398c3.js.map"
+    "main.49e9c852.js.map": "/portfolioWebsite/static/js/main.49e9c852.js.map"
   },
   "entrypoints": [
     "static/css/main.5279a77b.css",
-    "static/js/main.b3c398c3.js"
+    "static/js/main.49e9c852.js"
   ]
 }
