@@ -11,12 +11,12 @@
 }
 
 :root {
-  --color-bg: #1f1f38; /* text dark */
-  --color-bg-variant: #00dde9; /* card background */
-  --color-primary: #00abb3; /* light blue, btn, dec */
+  --color-bg: #12232e; /* background, text dark */
+  --color-bg-variant: #0065a4; /* card background */
+  --color-primary: #4da8da; /* light blue, btn, dec */
   --color-primary-variant: rgba(77, 181, 255, 0.4); /* small border */
-  --color-white: #fff; /* white text */
-  --color-light: #fff; /* grey text */
+  --color-white: #eefbfb; /* white text */
+  --color-light: #81d3ff; /* grey text */
 
   --transition: all 400ms ease;
 

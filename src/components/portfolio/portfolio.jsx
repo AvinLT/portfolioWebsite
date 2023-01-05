@@ -3,9 +3,9 @@ import "./portfolio.css";
 import IMG1 from "../../assets/amima.PNG";
 import IMG2 from "../../assets/chess.PNG";
 import IMG3 from "../../assets/crud.png";
-import IMG4 from "../../assets/mario.PNG";
-import IMG5 from "../../assets/portfolio.PNG";
-import IMG6 from "../../assets/conway.PNG";
+import IMG4 from "../../assets/conway.PNG";
+import IMG5 from "../../assets/mario.PNG";
+import IMG6 from "../../assets/portfolio.PNG";
 
 const data = [
   {
@@ -16,27 +16,32 @@ const data = [
   {
     id: 2,
     image: IMG2,
+    github: "https://github.com/AvinLT/Chess_PyGame",
     title: "Chess",
   },
   {
     id: 3,
     image: IMG3,
+    github: "https://github.com/AvinLT/simpleCrudApp",
     title: "Employee Management Application",
   },
   {
     id: 4,
     image: IMG4,
-    title: "Super Mario Snippet Game",
+    github: "https://github.com/AvinLT/ConwaysGameOfLife",
+    title: "Conway's Game of Life",
   },
   {
     id: 5,
     image: IMG5,
-    title: "This Website",
+    github: "https://github.com/AvinLT/Mario_PyGame",
+    title: "Super Mario Snippet Game",
   },
   {
     id: 6,
     image: IMG6,
-    title: "Conway's Game of Life",
+    github: "https://github.com/AvinLT/portfolioWebsite",
+    title: "This Website",
   },
 ];
 
@@ -50,22 +55,11 @@ const Portfolio = () => {
           return (
             <article className="portfolio__item" key={id}>
               <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+                <a href={github} target="blank">
+                  <img src={image} alt={title} />
+                </a>
               </div>
               <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={github} className="btn">
-                  Github
-                </a>
-                <a
-                  href={demo}
-                  className="btn btn-primary"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Live Demo
-                </a>
-              </div>
             </article>
           );
         })}

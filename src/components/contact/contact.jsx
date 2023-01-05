@@ -4,8 +4,8 @@ import { useRef } from "react";
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import { BsEnvelope } from "react-icons/bs";
-import { FaHatWizard } from "react-icons/fa";
-import { BsWhatsapp } from "react-icons/bs";
+import { FaMailBulk } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Contact = () => {
   const form = useRef();
@@ -38,16 +38,16 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <BsEnvelope className="contact__option-icon" />
+            <FaMailBulk className="contact__option-icon" />
             <h4>E-mail</h4>
             <h5>tharakaa@mcmaster.ca</h5>
             <a href="mailto:tharakaa@mcmaster.ca">Email me</a>
           </article>
 
           <article className="contact__option">
-            <BsWhatsapp className="contact__option-icon" />
+            <FaPhoneAlt className="contact__option-icon" />
             <h4>Phone Number</h4>
-            <h5>9059211361</h5>
+            <h5>(905)921-1361</h5>
             <a
               href="https://wa.me/message/HHVKC53QFOWZI1"
               target="_blank"
