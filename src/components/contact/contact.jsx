@@ -43,19 +43,6 @@ const Contact = () => {
             <h5>tharakaa@mcmaster.ca</h5>
             <a href="mailto:tharakaa@mcmaster.ca">Email me</a>
           </article>
-
-          <article className="contact__option">
-            <FaPhoneAlt className="contact__option-icon" />
-            <h4>Phone Number</h4>
-            <h5>(905)921-1361</h5>
-            <a
-              href="https://wa.me/message/HHVKC53QFOWZI1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Message
-            </a>
-          </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your name" required />
