@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/portfolioWebsite/static/css/main.c4b92b0b.css",
-    "main.js": "/portfolioWebsite/static/js/main.521b6bdf.js",
+    "main.js": "/portfolioWebsite/static/js/main.a54f0f93.js",
     "static/media/amima.PNG": "/portfolioWebsite/static/media/amima.e5328499886bb2845b4f.PNG",
     "static/media/avin.jpg": "/portfolioWebsite/static/media/avin.72008c830f0ef6f8289f.jpg",
     "static/media/avin2.jpg": "/portfolioWebsite/static/media/avin2.2710720d927de1aa7624.jpg",
     "static/media/portfolio.PNG": "/portfolioWebsite/static/media/portfolio.40c2e71c7a9495faa737.PNG",
     "static/media/conway.PNG": "/portfolioWebsite/static/media/conway.e5a6db5654fe7001dff4.PNG",
+    "static/media/Resume.pdf": "/portfolioWebsite/static/media/Resume.cf9f6c906d92724ff34d.pdf",
     "static/media/chess.PNG": "/portfolioWebsite/static/media/chess.4ef069476292144ada9e.PNG",
-    "static/media/Resume.pdf": "/portfolioWebsite/static/media/Resume.c9b37a9f8c0b3aca3999.pdf",
     "static/media/mario.PNG": "/portfolioWebsite/static/media/mario.1a78bdfa31239e297873.PNG",
+    "static/media/Ericsson.png": "/portfolioWebsite/static/media/Ericsson.eebeac3196b4a0ac97f3.png",
     "static/media/crud.png": "/portfolioWebsite/static/media/crud.e508157bb83d17f779d4.png",
+    "static/media/Solar.JPG": "/portfolioWebsite/static/media/Solar.a78cb2dd058acd274463.JPG",
+    "static/media/TimeToken.jpeg": "/portfolioWebsite/static/media/TimeToken.a937eae54fd9000a0680.jpeg",
     "index.html": "/portfolioWebsite/index.html",
     "main.c4b92b0b.css.map": "/portfolioWebsite/static/css/main.c4b92b0b.css.map",
-    "main.521b6bdf.js.map": "/portfolioWebsite/static/js/main.521b6bdf.js.map"
+    "main.a54f0f93.js.map": "/portfolioWebsite/static/js/main.a54f0f93.js.map"
   },
   "entrypoints": [
     "static/css/main.c4b92b0b.css",
-    "static/js/main.521b6bdf.js"
+    "static/js/main.a54f0f93.js"
   ]
 }
