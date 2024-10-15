@@ -12,7 +12,7 @@ const header = () => {
           <h5>Hey there! I'm</h5>
           <h1>Avin Lanson Tharakan</h1>
           <h5 className="text-light">
-            3rd Year CS Student @ McMaster University
+            4th Year CS Student @ McMaster University
           </h5>
           <HeadBtn />
         </div>
